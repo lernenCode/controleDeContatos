@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarefa-controleDeContatos",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "tarefa-controleDeContatos",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}

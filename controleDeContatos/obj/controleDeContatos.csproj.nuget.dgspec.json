@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\belmont\\Desktop\\webdev\\aspnet\\controleDeContatos\\controleDeContatos.csproj": {}
+    "C:\\Users\\belmont\\Desktop\\Pastas\\webdev\\aspnet\\controleDeContatos\\controleDeContatos.csproj": {}
   },
   "projects": {
-    "c:\\Users\\belmont\\Desktop\\webdev\\aspnet\\controleDeContatos\\controleDeContatos.csproj": {
+    "C:\\Users\\belmont\\Desktop\\Pastas\\webdev\\aspnet\\controleDeContatos\\controleDeContatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\belmont\\Desktop\\webdev\\aspnet\\controleDeContatos\\controleDeContatos.csproj",
+        "projectUniqueName": "C:\\Users\\belmont\\Desktop\\Pastas\\webdev\\aspnet\\controleDeContatos\\controleDeContatos.csproj",
         "projectName": "controleDeContatos",
-        "projectPath": "c:\\Users\\belmont\\Desktop\\webdev\\aspnet\\controleDeContatos\\controleDeContatos.csproj",
+        "projectPath": "C:\\Users\\belmont\\Desktop\\Pastas\\webdev\\aspnet\\controleDeContatos\\controleDeContatos.csproj",
         "packagesPath": "C:\\Users\\belmont\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\belmont\\Desktop\\webdev\\aspnet\\controleDeContatos\\obj\\",
+        "outputPath": "C:\\Users\\belmont\\Desktop\\Pastas\\webdev\\aspnet\\controleDeContatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\belmont\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,28 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
